@@ -1,0 +1,1973 @@
+2024-12-04 07:57:43 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "MaintenanceSchedule/index". in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('MaintenanceSche...', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-04 07:57:43 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][info][application] $_GET = [
+    'r' => 'MaintenanceSchedule/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'iukqi0vbcqtk112ek4qpvgfsut'
+    '_csrf' => 'dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+    '__captcha/site/captcha' => 'vohuxyb'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=iukqi0vbcqtk112ek4qpvgfsut; _csrf=dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '57720'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=MaintenanceSchedule%2Findex'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1733295463.1419
+    'REQUEST_TIME' => 1733295463
+]
+2024-12-04 07:57:45 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "MaintenanceSchedule/index". in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('MaintenanceSche...', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-04 07:57:45 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][info][application] $_GET = [
+    'r' => 'MaintenanceSchedule/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'iukqi0vbcqtk112ek4qpvgfsut'
+    '_csrf' => 'dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+    '__captcha/site/captcha' => 'vohuxyb'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=iukqi0vbcqtk112ek4qpvgfsut; _csrf=dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '57720'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=MaintenanceSchedule%2Findex'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1733295465.0567
+    'REQUEST_TIME' => 1733295465
+]
+2024-12-04 07:57:55 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "MaintenanceSchedule/index". in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('MaintenanceSche...', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-04 07:57:55 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][info][application] $_GET = [
+    'r' => 'MaintenanceSchedule/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'iukqi0vbcqtk112ek4qpvgfsut'
+    '_csrf' => 'dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+    '__captcha/site/captcha' => 'vohuxyb'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=iukqi0vbcqtk112ek4qpvgfsut; _csrf=dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '57721'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=MaintenanceSchedule%2Findex'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1733295475.7552
+    'REQUEST_TIME' => 1733295475
+]
+2024-12-04 07:57:56 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "MaintenanceSchedule/index". in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('MaintenanceSche...', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-04 07:57:56 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][info][application] $_GET = [
+    'r' => 'MaintenanceSchedule/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'iukqi0vbcqtk112ek4qpvgfsut'
+    '_csrf' => 'dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+    '__captcha/site/captcha' => 'vohuxyb'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=iukqi0vbcqtk112ek4qpvgfsut; _csrf=dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '57721'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=MaintenanceSchedule%2Findex'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1733295476.6972
+    'REQUEST_TIME' => 1733295476
+]
+2024-12-04 07:57:56 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "MaintenanceSchedule/index". in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('MaintenanceSche...', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-04 07:57:56 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][info][application] $_GET = [
+    'r' => 'MaintenanceSchedule/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'iukqi0vbcqtk112ek4qpvgfsut'
+    '_csrf' => 'dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+    '__captcha/site/captcha' => 'vohuxyb'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=iukqi0vbcqtk112ek4qpvgfsut; _csrf=dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '57722'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=MaintenanceSchedule%2Findex'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1733295476.8416
+    'REQUEST_TIME' => 1733295476
+]
+2024-12-04 07:57:57 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "MaintenanceSchedule/index". in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('MaintenanceSche...', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-04 07:57:57 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][info][application] $_GET = [
+    'r' => 'MaintenanceSchedule/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'iukqi0vbcqtk112ek4qpvgfsut'
+    '_csrf' => 'dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+    '__captcha/site/captcha' => 'vohuxyb'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=iukqi0vbcqtk112ek4qpvgfsut; _csrf=dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '57722'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=MaintenanceSchedule%2Findex'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1733295477.1986
+    'REQUEST_TIME' => 1733295477
+]
+2024-12-04 07:59:31 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "MaintenanceSchedule/index". in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('MaintenanceSche...', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-04 07:59:30 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][info][application] $_GET = [
+    'r' => 'MaintenanceSchedule/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'iukqi0vbcqtk112ek4qpvgfsut'
+    '_csrf' => 'dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+    '__captcha/site/captcha' => 'vohuxyb'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=iukqi0vbcqtk112ek4qpvgfsut; _csrf=dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '57738'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=MaintenanceSchedule%2Findex'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1733295570.8977
+    'REQUEST_TIME' => 1733295570
+]
+2024-12-04 07:59:31 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "MaintenanceSchedule/index". in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('MaintenanceSche...', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-04 07:59:31 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][info][application] $_GET = [
+    'r' => 'MaintenanceSchedule/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'iukqi0vbcqtk112ek4qpvgfsut'
+    '_csrf' => 'dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+    '__captcha/site/captcha' => 'vohuxyb'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=iukqi0vbcqtk112ek4qpvgfsut; _csrf=dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '57738'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=MaintenanceSchedule%2Findex'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1733295571.7265
+    'REQUEST_TIME' => 1733295571
+]
+2024-12-04 07:59:31 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "MaintenanceSchedule/index". in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('MaintenanceSche...', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-04 07:59:31 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][info][application] $_GET = [
+    'r' => 'MaintenanceSchedule/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'iukqi0vbcqtk112ek4qpvgfsut'
+    '_csrf' => 'dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+    '__captcha/site/captcha' => 'vohuxyb'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=iukqi0vbcqtk112ek4qpvgfsut; _csrf=dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '57739'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=MaintenanceSchedule%2Findex'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1733295571.8751
+    'REQUEST_TIME' => 1733295571
+]
+2024-12-04 07:59:32 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "MaintenanceSchedule/index". in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('MaintenanceSche...', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-04 07:59:32 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][info][application] $_GET = [
+    'r' => 'MaintenanceSchedule/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'iukqi0vbcqtk112ek4qpvgfsut'
+    '_csrf' => 'dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+    '__captcha/site/captcha' => 'vohuxyb'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=iukqi0vbcqtk112ek4qpvgfsut; _csrf=dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '57738'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=MaintenanceSchedule%2Findex'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=MaintenanceSchedule%2Findex'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1733295572.0953
+    'REQUEST_TIME' => 1733295572
+]
+2024-12-04 08:01:30 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "maintenace-record". in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('maintenace-reco...', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-04 08:01:30 [::1][100][iukqi0vbcqtk112ek4qpvgfsut][info][application] $_GET = [
+    'r' => 'maintenace-record'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'iukqi0vbcqtk112ek4qpvgfsut'
+    '_csrf' => 'dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+    '__captcha/site/captcha' => 'vohuxyb'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=iukqi0vbcqtk112ek4qpvgfsut; _csrf=dcd728d7ec79dbfcbc7f669997f7d59226a1ea6f7da7d4fbb84f3439030c205ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22NHi-K4LQ_7NDqel3sDVUOv147BFTMDzy%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '57782'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=maintenace-record'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=maintenace-record'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1733295690.1366
+    'REQUEST_TIME' => 1733295690
+]
+2024-12-04 09:02:14 [::1][-][n2ftlm3r8dujko228aqntqulte][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "/index". in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('/index', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2024-12-04 09:02:14 [::1][-][n2ftlm3r8dujko228aqntqulte][info][application] $_GET = [
+    'r' => '/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'n2ftlm3r8dujko228aqntqulte'
+    '_csrf' => 'ac22667139fb6cfd4282397bec2a7f7e3c053e6f5a8528144da89181c781cebba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TtDrVPsleM-y-e3bYB5pVuWGWx_tRg0t\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=n2ftlm3r8dujko228aqntqulte; _csrf=ac22667139fb6cfd4282397bec2a7f7e3c053e6f5a8528144da89181c781cebba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TtDrVPsleM-y-e3bYB5pVuWGWx_tRg0t%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '59585'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=%2Findex'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=%2Findex'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1733299334.3799
+    'REQUEST_TIME' => 1733299334
+]
+2024-12-18 04:17:18 [::1][100][cda0j50945cb61h3p4mbv5agsd][error][Error] Error: Call to undefined method app\models\User::find() in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\ExistValidator.php:303
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\ExistValidator.php(181): yii\validators\ExistValidator->createQuery('app\\models\\User', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\ExistValidator.php(113): yii\validators\ExistValidator->checkTargetAttributeExistence(Object(app\models\Notification), 'user_id')
+#2 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\Validator.php(260): yii\validators\ExistValidator->validateAttribute(Object(app\models\Notification), 'user_id')
+#3 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\Notification), Array)
+#4 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\db\ActiveRecord.php(564): yii\base\Model->validate(Array)
+#5 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\db\BaseActiveRecord.php(688): yii\db\ActiveRecord->insert(true, NULL)
+#6 C:\xampp\htdocs\baruaja\controllers\NotificationController.php(73): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\NotificationController->actionCreate()
+#8 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#11 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('notification/cr...', Array)
+#12 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2024-12-18 04:17:18 [::1][100][cda0j50945cb61h3p4mbv5agsd][info][application] $_GET = [
+    'r' => 'notification/create'
+]
+
+$_POST = [
+    '_csrf' => 'psYvZAZy3bs96SJKkiENU4UxnRpMBxQ12XsHpPK2WhXth0chcwCui3SIDyzodUAXzmfpeQpge2KvQmLjl953Qg=='
+    'Notification' => [
+        'user_id' => '1'
+        'email' => 'mkrnainal6@gmail.com'
+        'message' => 'help'
+        'status' => 'sent'
+        'created_at' => 'CURRENT_TIMESTAMP'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'cda0j50945cb61h3p4mbv5agsd'
+    '_csrf' => 'af99fb138dfb8684449743c46f4230924dc3c01dec0c1e9c274f7b1e774ea5cfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KAhEurs0Ia-fzTMDKVtcFgoWv9eGeh-W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '281'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=notification%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=cda0j50945cb61h3p4mbv5agsd; _csrf=af99fb138dfb8684449743c46f4230924dc3c01dec0c1e9c274f7b1e774ea5cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KAhEurs0Ia-fzTMDKVtcFgoWv9eGeh-W%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '61828'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=notification%2Fcreate'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=notification%2Fcreate'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1734491838.5443
+    'REQUEST_TIME' => 1734491838
+]
+2024-12-18 04:17:42 [::1][100][cda0j50945cb61h3p4mbv5agsd][error][Error] Error: Call to undefined method app\models\User::find() in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\ExistValidator.php:303
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\ExistValidator.php(181): yii\validators\ExistValidator->createQuery('app\\models\\User', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\ExistValidator.php(113): yii\validators\ExistValidator->checkTargetAttributeExistence(Object(app\models\Notification), 'user_id')
+#2 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\Validator.php(260): yii\validators\ExistValidator->validateAttribute(Object(app\models\Notification), 'user_id')
+#3 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\Notification), Array)
+#4 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\db\ActiveRecord.php(564): yii\base\Model->validate(Array)
+#5 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\db\BaseActiveRecord.php(688): yii\db\ActiveRecord->insert(true, NULL)
+#6 C:\xampp\htdocs\baruaja\controllers\NotificationController.php(73): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\NotificationController->actionCreate()
+#8 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#11 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('notification/cr...', Array)
+#12 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2024-12-18 04:17:42 [::1][100][cda0j50945cb61h3p4mbv5agsd][info][application] $_GET = [
+    'r' => 'notification/create'
+]
+
+$_POST = [
+    '_csrf' => 'I35KjZUt9HsYNBKzEL-zBSrCR2QW3A7jrpqJ1ovcb3ZoPyLI4F-HS1FVP9Vq6_5BYZQzB1C7YbTYo-yR7rRCIQ=='
+    'Notification' => [
+        'user_id' => '1'
+        'email' => 'mkrnainal6@gmail.com'
+        'message' => 'help'
+        'status' => 'sent'
+        'created_at' => 'CURRENT_TIMESTAMP'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'cda0j50945cb61h3p4mbv5agsd'
+    '_csrf' => 'af99fb138dfb8684449743c46f4230924dc3c01dec0c1e9c274f7b1e774ea5cfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KAhEurs0Ia-fzTMDKVtcFgoWv9eGeh-W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '281'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=notification%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=cda0j50945cb61h3p4mbv5agsd; _csrf=af99fb138dfb8684449743c46f4230924dc3c01dec0c1e9c274f7b1e774ea5cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KAhEurs0Ia-fzTMDKVtcFgoWv9eGeh-W%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '61834'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=notification%2Fcreate'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=notification%2Fcreate'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1734491862.2773
+    'REQUEST_TIME' => 1734491862
+]
+2024-12-18 04:18:41 [::1][100][cda0j50945cb61h3p4mbv5agsd][error][Error] Error: Call to undefined method app\models\User::find() in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\ExistValidator.php:303
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\ExistValidator.php(181): yii\validators\ExistValidator->createQuery('app\\models\\User', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\ExistValidator.php(113): yii\validators\ExistValidator->checkTargetAttributeExistence(Object(app\models\Notification), 'user_id')
+#2 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\Validator.php(260): yii\validators\ExistValidator->validateAttribute(Object(app\models\Notification), 'user_id')
+#3 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\Notification), Array)
+#4 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\db\ActiveRecord.php(564): yii\base\Model->validate(Array)
+#5 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\db\BaseActiveRecord.php(688): yii\db\ActiveRecord->insert(true, NULL)
+#6 C:\xampp\htdocs\baruaja\controllers\NotificationController.php(73): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\NotificationController->actionCreate()
+#8 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#11 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('notification/cr...', Array)
+#12 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2024-12-18 04:18:40 [::1][100][cda0j50945cb61h3p4mbv5agsd][info][application] $_GET = [
+    'r' => 'notification/create'
+]
+
+$_POST = [
+    '_csrf' => '28dVP9-Nc5bw09oofOKa1HclbIK5rDhG_Y0G5cdrTe2Qhj16qv8Aprmy904GtteQPHMY4f_LVxGLtGOiogNgug=='
+    'Notification' => [
+        'user_id' => '1'
+        'email' => 'mkrnainal6@gmail.com'
+        'message' => 'help'
+        'status' => 'pending'
+        'created_at' => 'CURRENT_TIMESTAMP'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'cda0j50945cb61h3p4mbv5agsd'
+    '_csrf' => 'af99fb138dfb8684449743c46f4230924dc3c01dec0c1e9c274f7b1e774ea5cfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KAhEurs0Ia-fzTMDKVtcFgoWv9eGeh-W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '284'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=notification%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=cda0j50945cb61h3p4mbv5agsd; _csrf=af99fb138dfb8684449743c46f4230924dc3c01dec0c1e9c274f7b1e774ea5cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KAhEurs0Ia-fzTMDKVtcFgoWv9eGeh-W%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '61840'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=notification%2Fcreate'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=notification%2Fcreate'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1734491920.9328
+    'REQUEST_TIME' => 1734491920
+]
+2024-12-18 04:20:50 [::1][100][cda0j50945cb61h3p4mbv5agsd][error][Error] Error: Call to undefined method app\models\User::find() in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\ExistValidator.php:303
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\ExistValidator.php(181): yii\validators\ExistValidator->createQuery('app\\models\\User', Array)
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\ExistValidator.php(113): yii\validators\ExistValidator->checkTargetAttributeExistence(Object(app\models\Notification), 'user_id')
+#2 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\Validator.php(260): yii\validators\ExistValidator->validateAttribute(Object(app\models\Notification), 'user_id')
+#3 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\Notification), Array)
+#4 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\db\ActiveRecord.php(564): yii\base\Model->validate(Array)
+#5 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\db\BaseActiveRecord.php(688): yii\db\ActiveRecord->insert(true, NULL)
+#6 C:\xampp\htdocs\baruaja\controllers\NotificationController.php(73): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\NotificationController->actionCreate()
+#8 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#11 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('notification/cr...', Array)
+#12 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2024-12-18 04:20:50 [::1][100][cda0j50945cb61h3p4mbv5agsd][info][application] $_GET = [
+    'r' => 'notification/create'
+]
+
+$_POST = [
+    '_csrf' => 'W4ODm7c73zGXkzetEUunyRbvqT8x4alaFQv4dpA-R1sQwuvewkmsAd7yGstrH-qNXbndXHeGxg1jMp0x9VZqDA=='
+    'Notification' => [
+        'user_id' => '1'
+        'email' => 'mkrnainal6@gmail.com'
+        'message' => 'help'
+        'status' => 'sent'
+        'created_at' => 'CURRENT_TIMESTAMP'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'cda0j50945cb61h3p4mbv5agsd'
+    '_csrf' => 'af99fb138dfb8684449743c46f4230924dc3c01dec0c1e9c274f7b1e774ea5cfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KAhEurs0Ia-fzTMDKVtcFgoWv9eGeh-W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '281'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=notification%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=cda0j50945cb61h3p4mbv5agsd; _csrf=af99fb138dfb8684449743c46f4230924dc3c01dec0c1e9c274f7b1e774ea5cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KAhEurs0Ia-fzTMDKVtcFgoWv9eGeh-W%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '61890'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=notification%2Fcreate'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=notification%2Fcreate'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1734492050.0665
+    'REQUEST_TIME' => 1734492050
+]
+2024-12-18 05:05:31 [::1][100][cda0j50945cb61h3p4mbv5agsd][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Notification::pegawai_id in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('pegawai_id')
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\helpers\BaseHtml.php(2291): yii\db\BaseActiveRecord->__get('pegawai_id')
+#2 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\helpers\BaseHtml.php(1383): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Notification), 'pegawai_id')
+#3 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\helpers\BaseHtml.php(1439): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Notification), 'pegawai_id', Array)
+#4 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\widgets\ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Notification), 'pegawai_id', Array)
+#5 C:\xampp\htdocs\baruaja\views\notification\_form.php(15): yii\widgets\ActiveField->textInput()
+#6 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\View.php(258): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\View.php(157): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#9 C:\xampp\htdocs\baruaja\views\notification\create.php(16): yii\base\View->render('_form', Array)
+#10 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\View.php(348): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\View.php(258): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\View.php(157): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\NotificationController))
+#13 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\NotificationController))
+#14 C:\xampp\htdocs\baruaja\controllers\NotificationController.php(80): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\NotificationController->actionCreate()
+#16 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#19 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('notification/cr...', Array)
+#20 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2024-12-18 05:05:30 [::1][100][cda0j50945cb61h3p4mbv5agsd][info][application] $_GET = [
+    'r' => 'notification/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    'PHPSESSID' => 'cda0j50945cb61h3p4mbv5agsd'
+    '_csrf' => 'af99fb138dfb8684449743c46f4230924dc3c01dec0c1e9c274f7b1e774ea5cfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"KAhEurs0Ia-fzTMDKVtcFgoWv9eGeh-W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+    '__captcha/site/captcha' => 'gesugaw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/baruaja/web/index.php?r=notification'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => '_identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; PHPSESSID=cda0j50945cb61h3p4mbv5agsd; _csrf=af99fb138dfb8684449743c46f4230924dc3c01dec0c1e9c274f7b1e774ea5cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22KAhEurs0Ia-fzTMDKVtcFgoWv9eGeh-W%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '60222'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=notification%2Fcreate'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=notification%2Fcreate'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1734494730.8299
+    'REQUEST_TIME' => 1734494730
+]
+2024-12-18 05:11:26 [::1][100][i41ptkdd3om0ilb6hdfk1o62al][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\NotificationSearch::pegawai_id in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('pegawai_id')
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('pegawai_id')
+#2 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\NotificationSearch), Array)
+#3 C:\xampp\htdocs\baruaja\models\NotificationSearch.php(53): yii\base\Model->validate()
+#4 C:\xampp\htdocs\baruaja\controllers\NotificationController.php(42): app\models\NotificationSearch->search(Array)
+#5 [internal function]: app\controllers\NotificationController->actionIndex()
+#6 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('notification', Array)
+#10 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2024-12-18 05:11:26 [::1][100][i41ptkdd3om0ilb6hdfk1o62al][info][application] $_GET = [
+    'r' => 'notification'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'i41ptkdd3om0ilb6hdfk1o62al'
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'b928847e43123d9779de00a226e8dc1d048ab0a049ea5c5726462a7289f6afb1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"anXCAuhBdv_oZNtzRBASSQQT8O_AT9rR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=i41ptkdd3om0ilb6hdfk1o62al; _identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=b928847e43123d9779de00a226e8dc1d048ab0a049ea5c5726462a7289f6afb1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22anXCAuhBdv_oZNtzRBASSQQT8O_AT9rR%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '60307'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=notification'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=notification'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1734495086.5587
+    'REQUEST_TIME' => 1734495086
+]
+2024-12-18 05:14:44 [::1][100][i41ptkdd3om0ilb6hdfk1o62al][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\NotificationSearch::pegawai_id in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('pegawai_id')
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('pegawai_id')
+#2 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\NotificationSearch), Array)
+#3 C:\xampp\htdocs\baruaja\models\NotificationSearch.php(53): yii\base\Model->validate()
+#4 C:\xampp\htdocs\baruaja\controllers\NotificationController.php(42): app\models\NotificationSearch->search(Array)
+#5 [internal function]: app\controllers\NotificationController->actionIndex()
+#6 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('notification', Array)
+#10 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2024-12-18 05:14:44 [::1][100][i41ptkdd3om0ilb6hdfk1o62al][info][application] $_GET = [
+    'r' => 'notification'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'i41ptkdd3om0ilb6hdfk1o62al'
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'b928847e43123d9779de00a226e8dc1d048ab0a049ea5c5726462a7289f6afb1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"anXCAuhBdv_oZNtzRBASSQQT8O_AT9rR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=i41ptkdd3om0ilb6hdfk1o62al; _identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=b928847e43123d9779de00a226e8dc1d048ab0a049ea5c5726462a7289f6afb1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22anXCAuhBdv_oZNtzRBASSQQT8O_AT9rR%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '60359'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=notification'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=notification'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1734495284.1833
+    'REQUEST_TIME' => 1734495284
+]
+2024-12-18 05:14:45 [::1][100][i41ptkdd3om0ilb6hdfk1o62al][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\NotificationSearch::pegawai_id in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('pegawai_id')
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('pegawai_id')
+#2 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\NotificationSearch), Array)
+#3 C:\xampp\htdocs\baruaja\models\NotificationSearch.php(53): yii\base\Model->validate()
+#4 C:\xampp\htdocs\baruaja\controllers\NotificationController.php(42): app\models\NotificationSearch->search(Array)
+#5 [internal function]: app\controllers\NotificationController->actionIndex()
+#6 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('notification', Array)
+#10 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2024-12-18 05:14:45 [::1][100][i41ptkdd3om0ilb6hdfk1o62al][info][application] $_GET = [
+    'r' => 'notification'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'i41ptkdd3om0ilb6hdfk1o62al'
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'b928847e43123d9779de00a226e8dc1d048ab0a049ea5c5726462a7289f6afb1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"anXCAuhBdv_oZNtzRBASSQQT8O_AT9rR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=i41ptkdd3om0ilb6hdfk1o62al; _identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=b928847e43123d9779de00a226e8dc1d048ab0a049ea5c5726462a7289f6afb1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22anXCAuhBdv_oZNtzRBASSQQT8O_AT9rR%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '60360'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=notification'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=notification'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1734495285.5053
+    'REQUEST_TIME' => 1734495285
+]
+2024-12-18 05:14:59 [::1][100][i41ptkdd3om0ilb6hdfk1o62al][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\NotificationSearch::pegawai_id in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('pegawai_id')
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('pegawai_id')
+#2 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\NotificationSearch), Array)
+#3 C:\xampp\htdocs\baruaja\models\NotificationSearch.php(53): yii\base\Model->validate()
+#4 C:\xampp\htdocs\baruaja\controllers\NotificationController.php(42): app\models\NotificationSearch->search(Array)
+#5 [internal function]: app\controllers\NotificationController->actionIndex()
+#6 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('notification', Array)
+#10 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2024-12-18 05:14:59 [::1][100][i41ptkdd3om0ilb6hdfk1o62al][info][application] $_GET = [
+    'r' => 'notification'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'i41ptkdd3om0ilb6hdfk1o62al'
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'b928847e43123d9779de00a226e8dc1d048ab0a049ea5c5726462a7289f6afb1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"anXCAuhBdv_oZNtzRBASSQQT8O_AT9rR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=i41ptkdd3om0ilb6hdfk1o62al; _identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=b928847e43123d9779de00a226e8dc1d048ab0a049ea5c5726462a7289f6afb1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22anXCAuhBdv_oZNtzRBASSQQT8O_AT9rR%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '60367'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=notification'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=notification'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1734495299.271
+    'REQUEST_TIME' => 1734495299
+]
+2024-12-18 05:17:54 [::1][100][i41ptkdd3om0ilb6hdfk1o62al][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\NotificationSearch::pegawai_id in C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('pegawai_id')
+#1 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\validators\Validator.php(257): yii\db\BaseActiveRecord->__get('pegawai_id')
+#2 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Model.php(368): yii\validators\Validator->validateAttributes(Object(app\models\NotificationSearch), Array)
+#3 C:\xampp\htdocs\baruaja\models\NotificationSearch.php(53): yii\base\Model->validate()
+#4 C:\xampp\htdocs\baruaja\controllers\NotificationController.php(42): app\models\NotificationSearch->search(Array)
+#5 [internal function]: app\controllers\NotificationController->actionIndex()
+#6 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('', Array)
+#9 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('notification', Array)
+#10 C:\xampp\htdocs\baruaja\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\xampp\htdocs\baruaja\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2024-12-18 05:17:54 [::1][100][i41ptkdd3om0ilb6hdfk1o62al][info][application] $_GET = [
+    'r' => 'notification'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'i41ptkdd3om0ilb6hdfk1o62al'
+    '_identity' => '8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => 'b928847e43123d9779de00a226e8dc1d048ab0a049ea5c5726462a7289f6afb1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"anXCAuhBdv_oZNtzRBASSQQT8O_AT9rR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br, zstd'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,id;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=i41ptkdd3om0ilb6hdfk1o62al; _identity=8a8651d3c00d895bcea043d3a9b9064fb878b5baa7e0a8c67f76feacaf6dfc2da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=b928847e43123d9779de00a226e8dc1d048ab0a049ea5c5726462a7289f6afb1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22anXCAuhBdv_oZNtzRBASSQQT8O_AT9rR%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\OpenLogic\\jre-11.0.23.9-hotspot\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\php-8.2.26;C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\user\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\user\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\user\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\user\\AppData\\Roaming\\npm;C:\\Users\\user\\Downloads\\chromedriver-win64;C:\\Users\\user\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.3.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/baruaja/web/index.php'
+    'REMOTE_PORT' => '60408'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=notification'
+    'REQUEST_URI' => '/baruaja/web/index.php?r=notification'
+    'SCRIPT_NAME' => '/baruaja/web/index.php'
+    'PHP_SELF' => '/baruaja/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1734495474.78
+    'REQUEST_TIME' => 1734495474
+]
